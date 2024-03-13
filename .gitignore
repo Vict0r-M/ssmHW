@@ -1,0 +1,23 @@
+# C Artifacts
+*.o
+*.so
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+/bin/
+/build/
+
+# Python Artifacts
+__pycache__/
+*.pyc
+/venv/
+/.venv/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
