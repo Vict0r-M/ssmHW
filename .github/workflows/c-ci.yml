@@ -1,0 +1,16 @@
+name: C CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install dependencies
+      run: sudo apt-get update && sudo apt-get install -y build-essential gcc-multilib g++-multilib
+    - name: Compile C code (ex1, w1)
+      run: |
+        # Exercise 1, Week 1
+        gcc -g week1_WarmUp/ex1_SingleDieThrowing/src/main.c week1_WarmUp/ex1_SingleDieThrowing/src/dice.c -Iweek1_WarmUp/ex1_SingleDieThrowing/include -o week1_WarmUp/ex1_SingleDieThrowing/build/simulate_dice -lm
