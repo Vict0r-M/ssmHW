@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build ex1, w1",
+            "label": "Build (Exercise 1, Week 1)",
             "type": "shell",
             "command": "gcc",
             "args": [

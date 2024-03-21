@@ -3,7 +3,7 @@
     "configurations": [
         {
    
-            "name": "Debug ex1, w1",
+            "name": "Debug (Exercise 1, Week 1)",
             "type": "cppdbg",
             "request": "launch",
             "program": "D:\\ssmHW\\week1_WarmUp\\ex1_SingleDieThrowing\\build\\simulate_dice",
@@ -20,7 +20,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "Build ex1, w1",
+            "preLaunchTask": "Build (Exercise 1, Week 1)",
             "miDebuggerPath": "D:/program-files/mingw64/bin/gdb.exe"
         }
     ]

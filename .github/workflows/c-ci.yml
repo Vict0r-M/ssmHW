@@ -10,9 +10,10 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install dependencies
       run: sudo apt-get update && sudo apt-get install -y build-essential gcc-multilib g++-multilib
-    - name: Compile C code (ex1, w1)
+    
+    - name: Compile C code (Exercise 1, Week 1)
       run: |
         # Create the build directory:
         mkdir -p week1_WarmUp/ex1_SingleDieThrowing/build
-        # Exercise 1, Week 1:
+        # Compile:
         gcc -g week1_WarmUp/ex1_SingleDieThrowing/src/main.c week1_WarmUp/ex1_SingleDieThrowing/src/dice.c -Iweek1_WarmUp/ex1_SingleDieThrowing/include -o week1_WarmUp/ex1_SingleDieThrowing/build/simulate_dice -lm

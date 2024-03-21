@@ -19,7 +19,8 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    - name: Run Python script
+
+    - name: Run Python script (Exercise 1, Week 1)
       run: |
         # Exercise 1, Week 1:
-        python week1_WarmUp\ex1_SingleDieThrowing\src\simulate_dice.py --throwsNr=100000 --incrementsNr=50     
+        python week1_WarmUp/ex1_SingleDieThrowing/src/simulate_dice.py --throwsNr=100000 --incrementsNr=50     
