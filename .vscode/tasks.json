@@ -16,10 +16,30 @@
             ],
             "group": {
                 "kind": "build",
-                "isDefault": true
+                "isDefault": false
             },
             "problemMatcher": ["$gcc"],
             "detail": "Compiler task for ex1_SingleDieThrowing."
+        },
+        {
+            "label": "Build (Exercise 2, Week 1)",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "week1_WarmUp/ex2_SeveralDice/src/main.c",
+                "week1_WarmUp/ex2_SeveralDice/src/dice.c",
+                "-Iweek1_WarmUp/ex2_SeveralDice/include",
+                "-o",
+                "week1_WarmUp/ex2_SeveralDice/build/simulate_dice",
+                "-lm"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compiler task for ex2_SeveralDice."
         }
     ]
 }

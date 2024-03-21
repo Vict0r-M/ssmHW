@@ -2,7 +2,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-   
             "name": "Debug (Exercise 1, Week 1)",
             "type": "cppdbg",
             "request": "launch",
@@ -21,6 +20,27 @@
                 }
             ],
             "preLaunchTask": "Build (Exercise 1, Week 1)",
+            "miDebuggerPath": "D:/program-files/mingw64/bin/gdb.exe"
+        },
+        { 
+            "name": "Debug (Exercise 2, Week 1)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "D:\\ssmHW\\week1_WarmUp\\ex2_SeveralDice\\build\\simulate_dice",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "D:\\ssmHW\\week1_WarmUp\\ex2_SeveralDice",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "text": "-enable-pretty-printing",
+                    "description": "Enable pretty printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build (Exercise 2, Week 1)",
             "miDebuggerPath": "D:/program-files/mingw64/bin/gdb.exe"
         }
     ]

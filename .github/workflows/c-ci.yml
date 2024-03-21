@@ -17,3 +17,10 @@ jobs:
         mkdir -p week1_WarmUp/ex1_SingleDieThrowing/build
         # Compile:
         gcc -g week1_WarmUp/ex1_SingleDieThrowing/src/main.c week1_WarmUp/ex1_SingleDieThrowing/src/dice.c -Iweek1_WarmUp/ex1_SingleDieThrowing/include -o week1_WarmUp/ex1_SingleDieThrowing/build/simulate_dice -lm
+
+    - name: Compile C code (Exercise 2, Week 1)
+      run: |
+        # Create the build directory:
+        mkdir -p week1_WarmUp/ex2_SeveralDice/build
+        # Compile:
+        gcc -g week1_WarmUp/ex2_SeveralDice/src/main.c week1_WarmUp/ex2_SeveralDice/src/dice.c -Iweek1_WarmUp/ex2_SeveralDice/include -o week1_WarmUp/ex2_SeveralDice/build/simulate_dice -lm
