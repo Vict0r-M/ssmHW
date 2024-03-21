@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+   
+            "name": "Debug ex1, w1",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "D:\\ssmHW\\week1_WarmUp\\ex1_SingleDieThrowing\\build\\simulate_dice",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "D:\\ssmHW\\week1_WarmUp\\ex1_SingleDieThrowing",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "text": "-enable-pretty-printing",
+                    "description": "Enable pretty printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build ex1, w1",
+            "miDebuggerPath": "D:/program-files/mingw64/bin/gdb.exe"
+        }
+    ]
+}

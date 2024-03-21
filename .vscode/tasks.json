@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build ex1, w1",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "week1_WarmUp/ex1_SingleDieThrowing/src/main.c",
+                "week1_WarmUp/ex1_SingleDieThrowing/src/dice.c",
+                "-Iweek1_WarmUp/ex1_SingleDieThrowing/include",
+                "-o",
+                "week1_WarmUp/ex1_SingleDieThrowing/build/simulate_dice",
+                "-lm"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compiler task for ex1_SingleDieThrowing."
+        }
+    ]
+}
