@@ -24,3 +24,17 @@ jobs:
         mkdir -p week1_WarmUp/ex2_SeveralDice/build
         # Compile:
         gcc -g week1_WarmUp/ex2_SeveralDice/src/main.c week1_WarmUp/ex2_SeveralDice/src/dice.c -Iweek1_WarmUp/ex2_SeveralDice/include -o week1_WarmUp/ex2_SeveralDice/build/simulate_dice -lm
+    
+    - name: Compile C code (Exercise 3, Week 1)
+      run: |
+        # Create the build directory:
+        mkdir -p week1_WarmUp/ex3_SecretaryProblem/build
+        # Compile:
+        gcc -g week1_WarmUp/ex3_SecretaryProblem/src/main.c week1_WarmUp/ex3_SecretaryProblem/src/secretary.c -Iweek1_WarmUp/ex3_SecretaryProblem/include -o week1_WarmUp/ex3_SecretaryProblem/build/secretary -lm
+    
+    - name: Compile C code (Exercise 4, Week 1)
+      run: |
+        # Create the build directory:
+        mkdir -p week1_WarmUp/ex4_PlainRandomWalk/build
+        # Compile:
+        gcc -g week1_WarmUp/ex4_PlainRandomWalk/src/main.c week1_WarmUp/ex4_PlainRandomWalk/src/init.c week1_WarmUp/ex4_PlainRandomWalk/src/simulation.c -Iweek1_WarmUp/ex4_PlainRandomWalk/include -o week1_WarmUp/ex4_PlainRandomWalk/build/randomWalk -lm

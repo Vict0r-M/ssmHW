@@ -36,10 +36,51 @@
             ],
             "group": {
                 "kind": "build",
-                "isDefault": true
+                "isDefault": false
             },
             "problemMatcher": ["$gcc"],
             "detail": "Compiler task for ex2_SeveralDice."
+        },
+        {
+            "label": "Build (Exercise 3, Week 1)",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "week1_WarmUp/ex3_SecretaryProblem/src/main.c",
+                "week1_WarmUp/ex3_SecretaryProblem/src/secretary.c",
+                "-Iweek1_WarmUp/ex3_SecretaryProblem/include",
+                "-o",
+                "week1_WarmUp/ex3_SecretaryProblem/build/secretary",
+                "-lm"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compiler task for ex3_SecretaryProblem."
+        },
+        {
+            "label": "Build (Exercise 4, Week 1)",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "week1_WarmUp/ex4_PlainRandomWalk/src/main.c",
+                "week1_WarmUp/ex4_PlainRandomWalk/src/init.c",
+                "week1_WarmUp/ex4_PlainRandomWalk/src/simulation.c",
+                "-Iweek1_WarmUp/ex4_PlainRandomWalk/include",
+                "-o",
+                "week1_WarmUp/ex4_PlainRandomWalk/build/randomWalk",
+                "-lm"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compiler task for ex4_PlainRandomWalk."
         }
     ]
 }
