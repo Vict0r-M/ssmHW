@@ -77,10 +77,114 @@
             ],
             "group": {
                 "kind": "build",
-                "isDefault": true
+                "isDefault": false
             },
             "problemMatcher": ["$gcc"],
             "detail": "Compiler task for ex4_PlainRandomWalk."
+        },
+        {
+            "label": "Build (Exercise 1, Week 2)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "week2_RandomWalk/ex1_GettingLost/src/main.cpp",
+                "week2_RandomWalk/ex1_GettingLost/src/random_walk.cpp",
+                "-Iweek2_RandomWalk/ex1_GettingLost/include",
+                "-o",
+                "week2_RandomWalk/ex1_GettingLost/build/randomWalk",
+                "-lm"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compiler task for ex1_GettingLost."
+        },
+        {
+            "label": "Build (Week 3)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "week3_RandomNumberGeneration/src/main.cpp",
+                "week3_RandomNumberGeneration/src/correlation_tests.cpp",
+                "week3_RandomNumberGeneration/src/distribution_generators.cpp",
+                "week3_RandomNumberGeneration/src/gaussian_rng.cpp",
+                "week3_RandomNumberGeneration/src/linear_congruential_rng.cpp",
+                "-Iweek3_RandomNumberGeneration/include",
+                "-o",
+                "week3_RandomNumberGeneration/build/randomNumberGenerator",
+                "-lm"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compiler task for Random Number Generator."
+        },
+        {
+            "label": "Build (Ex 3, Week 2)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "week2_RandomWalk/ex3_SelfAvoiding/src/main.cpp",
+                "week2_RandomWalk/ex3_SelfAvoiding/src/SelfAvoidingWalk.cpp",
+                "-Iweek2_RandomWalk/ex3_SelfAvoiding/include",
+                "-o",
+                "week2_RandomWalk/ex3_SelfAvoiding/build/selfAvoidingWalk",
+                "-lm"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compiler task for Ex 3, Week 2."
+        },
+        {
+            "label": "Build (Ex 4, Week 2)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "week2_RandomWalk/ex4_Voronoi/src/main.cpp",
+                "week2_RandomWalk/ex4_Voronoi/src/voronoi.cpp",
+                "-Iweek2_RandomWalk/ex4_Voronoi/include",
+                "-o",
+                "week2_RandomWalk/ex4_Voronoi/build/voronoi",
+                "-lm"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compiler task for Ex 4, Week 2."
+        },
+        {
+            "label": "Build (Week 4)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "week4_TheRatProblem/src/main.cpp",
+                "week4_TheRatProblem/src/DiscreteModel.cpp",
+                "week4_TheRatProblem/src/ContinuousModel.cpp",
+                "-Iweek4_TheRatProblem/include",
+                "-o",
+                "week4_TheRatProblem/build/rats",
+                "-lm"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compiler task for Week 4."
         }
     ]
 }

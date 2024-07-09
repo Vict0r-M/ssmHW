@@ -5,10 +5,10 @@
             "name": "Debug (Exercise 1, Week 1)",
             "type": "cppdbg",
             "request": "launch",
-            "program": "D:\\ssmHW\\week1_WarmUp\\ex1_SingleDieThrowing\\build\\simulate_dice",
+            "program": "D:\\program-files\\ssmHW\\week1_WarmUp\\ex1_SingleDieThrowing\\build\\simulate_dice",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "D:\\ssmHW\\week1_WarmUp\\ex1_SingleDieThrowing",
+            "cwd": "D:\\program-files\\ssmHW\\week1_WarmUp\\ex1_SingleDieThrowing",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
@@ -26,10 +26,10 @@
             "name": "Debug (Exercise 2, Week 1)",
             "type": "cppdbg",
             "request": "launch",
-            "program": "D:\\ssmHW\\week1_WarmUp\\ex2_SeveralDice\\build\\simulate_dice",
+            "program": "D:\\program-files\\ssmHW\\week1_WarmUp\\ex2_SeveralDice\\build\\simulate_dice",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "D:\\ssmHW\\week1_WarmUp\\ex2_SeveralDice",
+            "cwd": "D:\\program-files\\ssmHW\\week1_WarmUp\\ex2_SeveralDice",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
@@ -47,10 +47,10 @@
             "name": "Debug (Exercise 3, Week 1)",
             "type": "cppdbg",
             "request": "launch",
-            "program": "D:\\ssmHW\\week1_WarmUp\\ex3_SecretaryProblem\\build\\secretary",
+            "program": "D:\\program-files\\ssmHW\\week1_WarmUp\\ex3_SecretaryProblem\\build\\secretary",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "D:\\ssmHW\\week1_WarmUp\\ex3_SecretaryProblem",
+            "cwd": "D:\\program-files\\ssmHW\\week1_WarmUp\\ex3_SecretaryProblem",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
@@ -68,10 +68,10 @@
             "name": "Debug (Exercise 4, Week 1)",
             "type": "cppdbg",
             "request": "launch",
-            "program": "D:\\ssmHW\\week1_WarmUp\\ex4_PlainRandomWalk\\build\\randomWalk",
+            "program": "D:\\program-files\\ssmHW\\week1_WarmUp\\ex4_PlainRandomWalk\\build\\randomWalk",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "D:\\ssmHW\\week1_WarmUp\\ex4_PlainRandomWalk",
+            "cwd": "D:\\program-files\\ssmHW\\week1_WarmUp\\ex4_PlainRandomWalk",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
@@ -83,6 +83,111 @@
                 }
             ],
             "preLaunchTask": "Build (Exercise 4, Week 1)",
+            "miDebuggerPath": "D:/program-files/mingw64/bin/gdb.exe"
+        },
+        { 
+            "name": "Debug (Exercise 1, Week 2)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "D:\\program-files\\ssmHW\\week2_RandomWalk\\ex1_GettingLost\\build\\randomWalk",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "D:\\program-files\\ssmHW\\week2_RandomWalk\\ex1_GettingLost",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "text": "-enable-pretty-printing",
+                    "description": "Enable pretty printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build (Exercise 1, Week 2)",
+            "miDebuggerPath": "D:/program-files/mingw64/bin/gdb.exe"
+        },
+        { 
+            "name": "Debug (Week 3)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "D:\\program-files\\ssmHW\\week3_RandomNumberGeneration\\build\\randomNumberGenerator",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "D:\\program-files\\ssmHW\\week3_RandomNumberGeneration",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "text": "-enable-pretty-printing",
+                    "description": "Enable pretty printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build (Week 3)",
+            "miDebuggerPath": "D:/program-files/mingw64/bin/gdb.exe"
+        },
+        { 
+            "name": "Debug (Ex 3, Week 2)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "D:\\program-files\\ssmHW\\week2_RandomWalk\\ex3_SelfAvoiding\\build\\selfAvoidingWalk",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "D:\\program-files\\ssmHW\\week2_RandomWalk\\ex3_SelfAvoiding",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "text": "-enable-pretty-printing",
+                    "description": "Enable pretty printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build (Ex 3, Week 2)",
+            "miDebuggerPath": "D:/program-files/mingw64/bin/gdb.exe"
+        },
+        { 
+            "name": "Debug (Ex 4, Week 2)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "D:\\program-files\\ssmHW\\week2_RandomWalk\\ex4_Voronoi\\build\\voronoi",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "D:\\program-files\\ssmHW\\week2_RandomWalk\\ex4_Voronoi",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "text": "-enable-pretty-printing",
+                    "description": "Enable pretty printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build (Ex 4, Week 2)",
+            "miDebuggerPath": "D:/program-files/mingw64/bin/gdb.exe"
+        },
+        { 
+            "name": "Debug (Week 4)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "D:\\program-files\\ssmHW\\week4_TheRatProblem\\build\\rats",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "D:\\program-files\\ssmHW\\week4_TheRatProblem",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "text": "-enable-pretty-printing",
+                    "description": "Enable pretty printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build (Week 4)",
             "miDebuggerPath": "D:/program-files/mingw64/bin/gdb.exe"
         }
     ]
